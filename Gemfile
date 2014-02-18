@@ -45,4 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'foundation-rails'
+gem 'foundation-icons-sass-rails'
 gem 'ember-rails'
