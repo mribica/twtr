@@ -1,0 +1,5 @@
+<form>
+  {{view Em.TextArea valueBinding="body"}}
+  <button type="submit" {{action "save"}}>Save tweet</button>
+  {{#link-to 'tweets'}}Cancel{{/link-to}}
+</form>
