@@ -47,3 +47,5 @@ end
 gem 'foundation-rails'
 gem 'foundation-icons-sass-rails'
 gem 'ember-rails'
+
+gem "active_model_serializers"

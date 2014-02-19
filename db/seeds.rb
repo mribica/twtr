@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Tweet.create([
+  {
+    body: 'A framework for creating ambitious web applications'
+  },
+  {
+    body: 'This documentation will take you from total beginner to Ember expert.'
+  },
+  {
+    body: 'Ember Data sucks',
+  }
+])
