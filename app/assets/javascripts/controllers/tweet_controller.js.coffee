@@ -10,3 +10,7 @@ Twtr.TweetController = Em.ObjectController.extend
   markdown: ( ->
     @converter.makeHtml @get('body') if @get('body')
   ).property('body')
+
+  actions:
+    favorite: ->
+      @set 'favorite', !@get('favorite')

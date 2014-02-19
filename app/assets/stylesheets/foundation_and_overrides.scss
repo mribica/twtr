@@ -1194,3 +1194,16 @@
 // $include-html-visibility-classes: $include-html-classes;
 
 @import 'foundation';
+
+small, i {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 25px;
+}
+
+.is-favorite i {
+  color: red;
+}

@@ -3,4 +3,3 @@
 Twtr.Router.map ()->
   @resource 'tweets', ->
     @route 'new'
-
