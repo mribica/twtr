@@ -8,3 +8,7 @@ Twtr.TweetsNewController = Em.ObjectController.extend
       alert('Tweet Saved!')
       # TODO Persist new tweet
       @transitionToRoute('tweets')
+
+    stop: ->
+      @get('model').rollback()
+      @transitionToRoute('tweets')
