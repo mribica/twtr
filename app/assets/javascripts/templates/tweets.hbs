@@ -6,9 +6,5 @@
 {{outlet}}
 
 {{#each arrangedContent itemController='tweet'}}
-  <div>
-    <small> {{moment}} </small>
-    {{{markdown}}}
-  </div>
-  <hr />
+  {{render 'tweet' this}}
 {{/each}}
