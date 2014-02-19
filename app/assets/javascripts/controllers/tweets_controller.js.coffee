@@ -1,4 +1,6 @@
-Twtr.TweetsController = Em.ArrayController.extend()
+Twtr.TweetsController = Em.ArrayController.extend
+  sortProperties: ['createdAt']
+  sortAscending: false
 
 Twtr.TweetsNewController = Em.ObjectController.extend
   actions:

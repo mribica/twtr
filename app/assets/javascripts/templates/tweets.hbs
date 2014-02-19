@@ -1,10 +1,14 @@
-{{#link-to 'tweets.new'}}+ Add New Tweet{{/link-to}}
+<h3 class="subheader">
+  {{#link-to 'tweets.new'}}+ Add New Tweet{{/link-to}}
+</h3>
+<hr/>
+
 {{outlet}}
 
-<ul>
-  {{#each model}}
-    <li>
-      {{body}} - {{createdAt}}
-    </li>
-  {{/each}}
-</ul>
+{{#each arrangedContent itemController='tweet'}}
+  <div>
+    <small> {{moment}} </small>
+    {{{markdown}}}
+  </div>
+  <hr />
+{{/each}}
